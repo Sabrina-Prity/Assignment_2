@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Finder</title>
+    <link rel="icon" href="Image/icon.png" type="Image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="search-container">
+            <input class="src search-box" type="text" placeholder="Search for meals...">
+            <button class="src search-btn" type="submit">Search</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        
+        <div class="meal-display">
+            
+        </div>
+        
+
+        <div class="cart-container">
+            <div class="title">Your Cart</div>
+            <div class="cart-item-count">Total: 0</div>
+            <div class="cart-display"></div> 
+        </div>
+    </main>
+
+    <!-- Meal Result -->
+    <div id="meal" class="meal-result"></div>
+
+    <!-- Recipe Modal -->
+    <div class="meal-details">
+        <button type="button" class="recipe-close-btn">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="meal-details-content"></div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
